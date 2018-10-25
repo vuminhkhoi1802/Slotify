@@ -53,13 +53,13 @@ include("includes/handlers/login-handler.php");
         </p>
 
         <p>
+            <?php echo $account->getError("Your emails don't match"); ?>
             <?php echo $account->getError("Email is invalid"); ?>
             <label for="emailID">emailID</label>
             <input id="emailID" name="emailID" type="email" placeholder="e.g. abc@abc.com" required>
         </p>
 
         <p>
-            <?php echo $account->getError("Your emails don't match"); ?>
             <label for="emailConfirmation">email Confirmation</label>
             <input id="emailConfirmation" name="emailConfirmation" type="email" placeholder="e.g. abc@abc.com" required>
         </p>
