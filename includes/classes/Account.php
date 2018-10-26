@@ -35,22 +35,22 @@ class Account
     private function validateUsername($un)
     {
         if (strlen($un) > 25 || strlen($un) < 5) {
-            array_push($this->errorArray, "Your username must be between 5 and 25 characters");
+            array_push($this->errorArray, Constants::$usernameCharacters);
             return;
         }
 
         //TODO: check if username exists
     }
 
-    private function validateFirstname($fn)
+    private function validateFirstName($fn)
     {
         if (strlen($fn) > 25 || strlen($fn) < 2) {
-            array_push($this->errorArray, "Your first name must be between 2 and 25 characters");
+            array_push($this->errorArray, Constants::$firstNameCharacters);
             return;
         }
     }
 
-    private function validateLastname($ln)
+    private function validateLastName($ln)
     {
         if (strlen($ln) > 25 || strlen($ln) < 2) {
             array_push($this->errorArray, "Your last name must be between 2 and 25 characters");
