@@ -108,7 +108,7 @@ function getInputValue($name)
                 </p>
                 <button type="submit" name="registerButton"> SIGN UP</button>
                 <div class="" hasAccountText>
-                    <span id="hideRegister"> Already have an account? Login here </span>
+                    <span id="hideRegister"> Already have an account? Login here. </span>
                 </div>
             </form>
         </div>
