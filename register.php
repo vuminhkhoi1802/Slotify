@@ -22,7 +22,11 @@ function getInputValue($name)
 <head>
 
     <title>Welcome to Slotify</title>
+
     <link rel="stylesheet" type="text/css" href="assets/css/register.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/register.js"></script>
 
 </head>
 <body>
@@ -44,12 +48,11 @@ function getInputValue($name)
                     <label for="loginPassword">Password</label>
                     <input id="loginPassword" name="loginPassword" type="password" placeholder="Your password" required>
                 </p>
-                <button type="submit" name="loginButton"> LOG IN
 
-                </button>
+                <button type="submit" name="loginButton"> LOG IN</button>
 
-                <div class="" hasAccountText>
-                    <span id="hideLogin"> Don't have an account yet? Sign Up Here </span>
+                <div class="hasAccountText">
+                    <span id="hideLogin">Don't have an account yet? Signup here.</span>
                 </div>
             </form>
 
@@ -107,8 +110,8 @@ function getInputValue($name)
                     <input id="password2" name="password2" type="password" placeholder="Your password" required>
                 </p>
                 <button type="submit" name="registerButton"> SIGN UP</button>
-                <div class="" hasAccountText>
-                    <span id="hideRegister"> Already have an account? Login here. </span>
+                <div class="hasAccountText">
+                    <span id="hideRegister">Already have an account? Log in here.</span>
                 </div>
             </form>
         </div>
