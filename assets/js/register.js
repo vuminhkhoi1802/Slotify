@@ -7,7 +7,11 @@ $(document).ready(function () {
     });
 
     $("#hideRegister").click(function () {
+        console.log("Register was pressed!");
         $("#loginForm").show();
         $("#registerForm").hide();
     });
+
+    $()
 });
+

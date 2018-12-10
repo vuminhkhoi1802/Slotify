@@ -19,6 +19,6 @@ else{
 
 </head>
 <body>
-    Hello!
+    Hello! You are logged in.
 </body>
 </html>

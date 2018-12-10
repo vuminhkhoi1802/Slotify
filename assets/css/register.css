@@ -107,3 +107,8 @@ body{
 .hasAccountText{
     text-align: center;
 }
+
+
+#registerForm {
+    display: none;
+}
