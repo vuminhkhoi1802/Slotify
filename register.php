@@ -61,7 +61,7 @@ if (isset($_POST['registerButton'])) {
 
                     <label for="loginUsername">Username</label>
                     <input id="loginUsername" name="loginUsername" type="text" placeholder="e.g. vuminhkhoi1802"
-                           required>
+                           value="<?php getInputValue('loginUsername') ?>" required>
 
                 </p>
                 <p>
@@ -135,7 +135,7 @@ if (isset($_POST['registerButton'])) {
                 </div>
             </form>
         </div>
-        <div id = "loginText">
+        <div id="loginText">
             <h1>Get great music, right now</h1>
             <h2>Listen to loads of songs for free</h2>
             <ul>

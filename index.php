@@ -19,6 +19,12 @@ else{
 
 </head>
 <body>
-    Hello! You are logged in.
+    <div id = "nowPlayingBarContainer">
+
+    </div>
+
+
+
+
 </body>
 </html>
