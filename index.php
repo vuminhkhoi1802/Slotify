@@ -16,6 +16,7 @@ else{
 <head>
 
     <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 <body>
