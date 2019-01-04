@@ -1,9 +1,21 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
 
 #nowPlayingBarContainer {
     width: 100%;
     background: #282828;
-    height: 100px; /*remove later */
     position: fixed;
     min-width: 620px;
     bottom: 0;
+}
+
+#nowPlayingBar{
+    display: flex;
+    height: 90px;
+    padding: 16px;
+    box-sizing: border-box;
 }
